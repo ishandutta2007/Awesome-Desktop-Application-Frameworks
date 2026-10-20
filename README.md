@@ -30,29 +30,26 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
+
+
+
+## Sector Overview & Market Dynamics
+
+The global cross-platform application development software and tooling market is valued at approximately **$8.7B to $138B+** (with broader app platforms projected to scale past $33B to $800B+ over the coming decade). The industry is **moderately-to-highly fragmented** across distinct technical approaches (web-runtime containers, managed cross-platform UI runtimes, compiled native C++ frameworks, and proprietary RAD suites), preventing a winner-take-all dynamic.
 
 
 
 ## SaaS/Hosted Platforms
 
-
-
-- **Qt (Commercial License)**
-
-  **Cross-platform application and UI framework** for desktop, embedded, and mobile. **Note**: The commercial license provides support and indemnification—the open-source edition (LGPLv3/GPLv3) is functionally identical but requires compliance with copyleft terms. **The reference for native C++ desktop applications**—near 30 years of development, extensive documentation, and third-party libraries covering databases, charts, and serial communication . **Trade-off**: C++ learning curve and licensing complexity for commercial use.
-
-
-
-- **Embarcadero RAD Studio**
-
-  **Windows-native rapid application development** with Delphi and C++Builder. **Note**: Proprietary and Windows-only—best for teams maintaining legacy Windows applications with strong native integration requirements.
+| Platform | Valuation / Revenue | Starting Price | Free Tier / Trial Limits | Description & Trade-offs |
+| :--- | :--- | :--- | :--- | :--- |
+| **Idera / Embarcadero RAD Studio** | Valuation: ~$1.125B (Idera) / Revenue: ~$100M-$250M+ (Idera) | $2,573/yr (Named User Perpetual with 1st year Update Subscription) | 30-day full-featured free trial (or Delphi/C++Builder Community Edition: limited to $5,000/yr gross revenue & max 5 users) | **Windows-native rapid application development** with Delphi and C++Builder. Proprietary and primarily Windows-optimized - best for teams maintaining mission-critical Windows applications with deep native API integration. |
+| **The Qt Company (Qt Commercial)** | Valuation: ~$920M-$1.0B (EUR 825M-970M Market Cap) / Revenue: ~EUR 216.3M (~$235M) | EUR 546/yr (~$618/yr, Small Business tier; $3,950/dev/yr for Enterprise) | 10-day evaluation trial (full commercial features for evaluation only; perpetual free tier available via LGPLv3/GPLv3 Open Source edition) | **Cross-platform application and UI framework** for desktop, embedded, and mobile. The reference standard for native C++ desktop apps; trade-offs include C++ learning curve and commercial licensing costs. |
 
 
 
