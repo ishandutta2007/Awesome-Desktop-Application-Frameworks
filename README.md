@@ -1,184 +1,179 @@
 # Awesome-Desktop-Application-Frameworks
 
-## Top Desktop Application Frameworks Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Desktop Application Frameworks Banner" width="100%" />
+</p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Desktop-Application-Frameworks/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Desktop-Application-Frameworks?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Desktop-Application-Frameworks/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Desktop-Application-Frameworks?style=social" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Desktop-Application-Frameworks/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
+
+## 🎯 Top Desktop Application Frameworks Ecosystem
+
+> A comprehensive, SEO-optimized, and curated collection of the best **desktop application frameworks**, **cross-platform GUI libraries**, **native UI toolkits**, and **web-to-desktop runtimes**. Build high-performance, lightweight, and cross-platform desktop software for Windows, macOS, and Linux.
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Cross-Platform UI, Native Performance & Web-Technology Runtimes*  
-
+*Focused on Cross-Platform UI, Native Performance, Skia / GPU Rendering, & Modern Web-Technology Runtimes*  
 **Last updated: October 2026**
 
+This repository tracks notable **SaaS platforms** and **open-source frameworks** for **Desktop Application Development**. These tools empower software engineers and enterprises to build installable, production-ready desktop apps—ranging from native C++ and Rust toolkits rendering directly to GPU canvases, to lightweight webview bridges (Tauri, Wails, Neutralinojs) and complete web runtimes (Electron).
 
+### ⚡ Quick Navigation / Table of Contents
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [💼 SaaS & Commercial Platforms](#-saas--commercial-platforms)
+- [⭐ Open-Source GitHub Frameworks](#-open-source-github-frameworks)
+  - [Top Tier Frameworks (Ranked by Stars)](#top-tier-frameworks-ranked-by-stars)
+  - [Specialized & Emerging Open-Source Frameworks](#specialized--emerging-open-source-frameworks)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ Disclaimer & Evaluation Guidelines](#️-disclaimer--evaluation-guidelines)
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Desktop Application Frameworks**. These tools enable developers to build installable applications for Windows, macOS, and Linux—from compiled native toolkits that render every pixel themselves to web-technology runtimes that ship a browser engine or delegate to the operating system's built-in webview.
+---
 
+## 📊 Sector Overview & Market Dynamics
 
+The global cross-platform application development software and desktop tooling market is valued between **$8.7 billion and $138+ billion** (with the broader software platform category projected to scale from $33B to over $800B+ across the next decade). The sector exhibits **moderate-to-high fragmentation** characterized by distinct technological niches—ranging from web-runtime stacks (Electron, Tauri) and managed runtimes (.NET MAUI, Avalonia) to heavyweight compiled C++ frameworks (Qt) and proprietary rapid enterprise toolkits (RAD Studio)—preventing a single "winner-take-all" monopoly.
 
-**Examples** include Electron, Qt, Flutter, Tauri, Avalonia UI, .NET MAUI, Uno Platform, Slint, JUCE, and wxWidgets (the category leaders).
+---
 
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, cross-platform compilation, and open desktop infrastructure—ideal for application developers, platform teams, and organizations seeking transparent, vendor-independent desktop tooling.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-
-
-## Sector Overview & Market Dynamics
-
-The global cross-platform application development software and tooling market is valued at approximately **$8.7B to $138B+** (with broader app platforms projected to scale past $33B to $800B+ over the coming decade). The industry is **moderately-to-highly fragmented** across distinct technical approaches (web-runtime containers, managed cross-platform UI runtimes, compiled native C++ frameworks, and proprietary RAD suites), preventing a winner-take-all dynamic.
-
-
-
-## SaaS/Hosted Platforms
+## 💼 SaaS & Commercial Platforms
 
 | Platform | Valuation / Revenue | Starting Price | Free Tier / Trial Limits | Description & Trade-offs |
 | :--- | :--- | :--- | :--- | :--- |
 | **Idera / Embarcadero RAD Studio** | Valuation: ~$1.125B (Idera) / Revenue: ~$100M-$250M+ (Idera) | $2,573/yr (Named User Perpetual with 1st year Update Subscription) | 30-day full-featured free trial (or Delphi/C++Builder Community Edition: limited to $5,000/yr gross revenue & max 5 users) | **Windows-native rapid application development** with Delphi and C++Builder. Proprietary and primarily Windows-optimized - best for teams maintaining mission-critical Windows applications with deep native API integration. |
 | **The Qt Company (Qt Commercial)** | Valuation: ~$920M-$1.0B (EUR 825M-970M Market Cap) / Revenue: ~EUR 216.3M (~$235M) | EUR 546/yr (~$618/yr, Small Business tier; $3,950/dev/yr for Enterprise) | 10-day evaluation trial (full commercial features for evaluation only; perpetual free tier available via LGPLv3/GPLv3 Open Source edition) | **Cross-platform application and UI framework** for desktop, embedded, and mobile. The reference standard for native C++ desktop apps; trade-offs include C++ learning curve and commercial licensing costs. |
 
+---
 
+## ⭐ Open-Source GitHub Frameworks
 
-## Open-Source GitHub Projects
+The open-source desktop ecosystem is diverse, offering options across JavaScript/TypeScript, Rust, Go, Python, C++, and C#. All frameworks below are sorted by GitHub stars in descending order.
 
+### Top Tier Frameworks (Ranked by Stars)
 
+- **Flutter (Desktop)** [![GitHub stars](https://img.shields.io/github/stars/flutter/flutter?style=social&color=white)](https://github.com/flutter/flutter/stargazers)  
+  **Google's UI toolkit for natively compiled applications** (BSD-3-Clause) — *the pixel-perfect multi-platform choice*. Compiles to native Windows, macOS, and Linux desktop binaries from a single Dart codebase. Utilizes custom Skia and Impeller rendering engines to draw every pixel natively on the GPU with hot reload support.  
+  * **Trade-off:** System interaction (raw OS hardware, low-level platform APIs) requires native plugins or FFI compared to Qt.
 
-- **Electron**
+- **Electron** [![GitHub stars](https://img.shields.io/github/stars/electron/electron?style=social&color=white)](https://github.com/electron/electron/stargazers)  
+  **Build cross-platform desktop apps with JavaScript, HTML, and CSS** (MIT) — *the web-technology standard*. Bundles Chromium and Node.js into every application, powering VS Code, Slack, Discord, and Figma. Massive npm ecosystem and rapid development.  
+  * **Trade-off:** High bundle size (≈385MB on Windows, ≈296MB on Linux) and high baseline RAM usage (≈250MB+).
 
-  **Build cross-platform desktop apps with JavaScript, HTML, and CSS** (MIT) — **the web-technology standard** . **Bundles Chromium and Node.js** into every application—**the trade-off is size**: a minimal app is **≈385MB on Windows** and **≈296MB on Linux**, with **memory usage around 279MB (Release) on Windows** . **The ecosystem is massive**—VS Code, Slack, Discord, and countless enterprise tools are built on it. **The reference implementation for web-to-desktop** — **choose when your team is web-first and you need maximum compatibility, not minimum footprint**.
+- **Tauri** [![GitHub stars](https://img.shields.io/github/stars/tauri-apps/tauri?style=social&color=white)](https://github.com/tauri-apps/tauri/stargazers)  
+  **Build smaller, faster, and secure desktop apps with web frontends** (MIT/Apache-2.0) — *the lightweight web-technology choice*. Replaces Chromium by delegating to the operating system's native webview (WebView2 on Windows, WebKitGTK on Linux, WebKit on macOS) coupled with a secure Rust backend. Bundle sizes can be under 3MB.  
+  * **Trade-off:** Compiling the Rust core results in slower initial build times compared to pure Node.js environments.
 
+- **Dear ImGui** [![GitHub stars](https://img.shields.io/github/stars/ocornut/imgui?style=social&color=white)](https://github.com/ocornut/imgui/stargazers)  
+  **Bloat-free Immediate Mode Graphical User Interface for C++** (MIT) — *the real-time, game engine, and tooling standard*. Highly optimized, portable, and renderer-agnostic GUI library designed for game developers, debug overlays, internal content creation suites, and visualization utilities.  
+  * **Trade-off:** Immediate-mode paradigm differs significantly from traditional retained-mode application UI architectures.
 
+- **Wails** [![GitHub stars](https://img.shields.io/github/stars/wailsapp/wails?style=social&color=white)](https://github.com/wailsapp/wails/stargazers)  
+  **Build desktop apps using Go and Web Technologies** (MIT) — *the Go developer's lightweight choice*. Integrates native webviews with Go backends, providing fast native execution, concise code, and compact binary distribution sizes (~10-15MB).  
+  * **Trade-off:** Requires Go toolchain; uses OS webviews which may introduce subtle cross-platform CSS/rendering variations.
 
-- **Tauri**
+- **Iced** [![GitHub stars](https://img.shields.io/github/stars/iced-rs/iced?style=social&color=white)](https://github.com/iced-rs/iced/stargazers)  
+  **A cross-platform GUI library for Rust focused on simplicity and type-safety** (MIT) — *the Elm-inspired Rust choice*. Features a reactive architecture, modular renderer backends (wgpu), first-class async runtime integration, and clean memory guarantees without webviews.  
+  * **Trade-off:** Rapidly evolving API; smaller ecosystem of pre-built third-party components than mature toolkits.
 
-  **Build smaller, faster, and more secure desktop applications with a web frontend** (MIT/Apache-2.0) — **the lightweight web-technology choice** . **Uses the system's native webview** (WebKitGTK on Linux, WebKit on macOS, WebView2 on Windows) instead of bundling Chromium . **Build size is dramatic**: **≈3MB on Windows** vs. Electron's 385MB . **The trade-off**: **build time is slower** (≈234 seconds on Windows vs. Electron's ≈10 seconds) because the Rust core must compile . **Requires Rust toolchain and a C++ compiler** for development . **Best for**: teams wanting **Electron-like ergonomics with a fraction of the bundle size** and are willing to accept the Rust build overhead.
+- **Avalonia UI** [![GitHub stars](https://img.shields.io/github/stars/AvaloniaUI/Avalonia?style=social&color=white)](https://github.com/AvaloniaUI/Avalonia/stargazers)  
+  **A cross-platform UI framework for .NET** (MIT) — *the WPF-everywhere choice*. Uses XAML layout, C# logic, and MVVM patterns to render pixel-perfect UIs via Skia on Windows, macOS, and Linux (including native Wayland backend support).  
+  * **Trade-off:** Packaging and auto-updaters require integrating community .NET tooling (such as Velopack).
 
+- **Fyne** [![GitHub stars](https://img.shields.io/github/stars/fyne-io/fyne?style=social&color=white)](https://github.com/fyne-io/fyne/stargazers)  
+  **Cross-platform GUI in Go based on Material Design** (BSD-3-Clause) — *the pure Go native renderer*. Renders UI natively using OpenGL/Vulkan via Go without any web browser or CGO dependencies on modern setups, targeting desktop and mobile seamlessly.  
+  * **Trade-off:** Strict adherence to its Material Design layout conventions makes heavily customized non-standard UI designs more complex.
 
+- **Slint** [![GitHub stars](https://img.shields.io/github/stars/slint-ui/slint?style=social&color=white)](https://github.com/slint-ui/slint/stargazers)  
+  **Declarative GUI toolkit for Rust, C++, and JavaScript** (GPLv3/Commercial) — *the embedded and high-performance choice*. Extremely low memory footprint (<300KB RAM baseline) with a dedicated UI markup language and live-preview tooling.  
+  * **Trade-off:** Open source licensing under copyleft GPLv3 requires purchasing a proprietary license for closed-source commercial deployments.
 
-- **Qt (Open-Source Edition)**
+- **.NET MAUI** [![GitHub stars](https://img.shields.io/github/stars/dotnet/maui?style=social&color=white)](https://github.com/dotnet/maui/stargazers)  
+  **.NET Multi-platform App UI** (MIT) — *the official Microsoft multi-device choice*. Evolution of Xamarin.Forms allowing developers to build native mobile and desktop applications from a single C# and XAML codebase.  
+  * **Trade-off:** Desktop tooling and ecosystem maturity historically lag behind mobile target platforms.
 
-  **Cross-platform C++ framework with native widgets** (LGPLv3/GPLv3) — **the native performance choice** . **One codebase compiles to Windows, macOS, Linux, and embedded devices** . **C++ native compilation** delivers hardware interaction (serial, USB, multimedia) and performance that WebView-based frameworks cannot match . **The trade-off**: **C++ development** and **LGPL compliance requirements** (dynamic linking, source availability for modifications) for commercial use.
+- **Kivy** [![GitHub stars](https://img.shields.io/github/stars/kivy/kivy?style=social&color=white)](https://github.com/kivy/kivy/stargazers)  
+  **Open source Python framework for rapid development of innovative UIs** (MIT) — *the Python multi-touch choice*. Hardware-accelerated OpenGL ES 2 rendering with custom widget trees and natural multitouch event support across Linux, Windows, macOS, Android, and iOS.  
+  * **Trade-off:** Uses non-native custom styling by default; packaging Python runtimes for standalone desktop distribution can require complex freezing scripts.
 
+- **Dear PyGui** [![GitHub stars](https://img.shields.io/github/stars/hoffstadt/DearPyGui?style=social&color=white)](https://github.com/hoffstadt/DearPyGui/stargazers)  
+  **Fast and powerful Graphical User Interface toolkit for Python** (MIT) — *the high-performance Python choice*. Built on top of Dear ImGui with GPU acceleration via DirectX, Metal, and OpenGL. Excellent for data science, engineering tools, and real-time visualization.  
+  * **Trade-off:** Geared towards utilities, simulation tools, and dashboards rather than traditional document-centric business software.
 
+- **Uno Platform** [![GitHub stars](https://img.shields.io/github/stars/unoplatform/uno?style=social&color=white)](https://github.com/unoplatform/uno/stargazers)  
+  **Pixel-perfect WinUI across Windows, macOS, Linux, iOS, Android, and WebAssembly** (Apache-2.0) — *the WinUI-everywhere choice*. Allows C# and XAML developers to run modern Windows App SDK / WinUI code across desktop and web with single-source efficiency.  
+  * **Trade-off:** WebAssembly desktop targets are heavyweight and require modern client browser engines.
 
-- **Flutter (Desktop)**
+- **JUCE** [![GitHub stars](https://img.shields.io/github/stars/juce-framework/JUCE?style=social&color=white)](https://github.com/juce-framework/JUCE/stargazers)  
+  **Cross-platform C++ framework for audio applications and plug-ins** (ISC/GPLv3/Commercial) — *the audio industry benchmark*. De-facto standard for building VST, AU, and AAX synthesizer plug-ins and standalone music software with real-time audio threads and graphics.  
+  * **Trade-off:** Specialized for audio and DSP applications rather than general business CRUD applications.
 
-  **Google's UI toolkit for natively compiled applications** (BSD-3-Clause) — **the pixel-perfect choice** . **Compiles to native Windows, macOS, and Linux desktop apps**—same codebase as mobile and web . **Custom Skia rendering engine** draws every pixel—identical UI across platforms. **Hot reload** and **extensive widget library**. **The trade-off**: **system interaction (hardware, native APIs) is weaker** than Qt or platform-native frameworks . **Best for**: teams prioritizing **visual consistency and rapid UI development** over deep OS integration.
+- **Neutralinojs** [![GitHub stars](https://img.shields.io/github/stars/neutralinojs/neutralinojs?style=social&color=white)](https://github.com/neutralinojs/neutralinojs/stargazers)  
+  **Lightweight and portable cross-platform desktop application SDK** (MIT) — *the ultra-lightweight webview runtime*. Generates lightweight binary bundles (~2MB) by consuming system webviews and executing a lightweight C++ daemon without embedding Node.js.  
+  * **Trade-off:** Does not include built-in Node.js runtime bindings in the host process; backend extensions must communicate over web sockets.
 
+- **wxWidgets** [![GitHub stars](https://img.shields.io/github/stars/wxWidgets/wxWidgets?style=social&color=white)](https://github.com/wxWidgets/wxWidgets/stargazers)  
+  **Cross-platform GUI library with genuine native look and feel** (wxWindows Licence) — *the OS-native widgets standard*. Wraps true platform-native controls on Windows, macOS (Cocoa), and Linux (GTK), ensuring zero visual uncanny valley and full OS compliance.  
+  * **Trade-off:** Classical C++ programming model; modern smooth declarative animations and reactive state pipelines require supplementary architecture.
 
-
-- **Avalonia UI**
-
-  **A cross-platform UI framework for .NET** (MIT) — **the WPF-everywhere choice** . **If you know WPF, you know Avalonia**—XAML for layout, C# for logic, MVVM for structure . **Renders with Skia**—same UI on Windows, macOS, and Linux. **Version 12.1 (July 2026)** added a **native Wayland backend** for Linux . **The trade-off**: **installers and auto-updates rely on the .NET ecosystem** (Velopack, etc.) rather than turnkey features . **Best for**: .NET teams with existing WPF expertise who need to reach macOS and Linux without rewriting in a new language.
-
-
-
-- **.NET MAUI**
-
-  **.NET Multi-platform App UI** (MIT) — **the Microsoft ecosystem choice** . **Builds native mobile and desktop apps with C# and XAML**—Windows, macOS, Android, and iOS from one project. **The trade-off**: **desktop support is less mature** than mobile, and **system integration depth** varies by platform. **Best for**: teams already committed to .NET and wanting a single project for mobile and desktop.
-
-
-
-- **Uno Platform**
-
-  **Build native mobile, desktop, and WebAssembly apps with C# and XAML** (Apache-2.0) — **the WinUI-everywhere choice** . **Pixel-perfect WinUI on iOS, Android, macOS, Linux, Windows, and WebAssembly**—same XAML, same controls. **The trade-off**: **WebAssembly output is not suited for typical websites**—complex desktop apps in the browser, not SEO-friendly pages . **Best for**: teams wanting **WinUI/Fluent design across all platforms** with a single XAML codebase.
-
-
-
-- **Slint**
-
-  **Declarative GUI toolkit for Rust, C++, and JavaScript** (GPLv3/Commercial) — **the embedded and performance-focused choice** . **Designed for desktop and embedded devices**—efficient rendering, low memory footprint. **Declarative DSL** for UI definition with **live preview** tooling. **The trade-off**: **smaller ecosystem** than Qt or Flutter, and **GPLv3 licensing** for open-source use. **Best for**: Rust teams building **performance-sensitive desktop or embedded UIs**.
-
-
-
-- **JUCE**
-
-  **Cross-platform C++ framework for audio applications and plug-ins** (ISC/GPLv3/Commercial) — **the audio industry standard** . **VST, AU, AAX, and standalone applications** from one codebase. **Real-time audio processing**, **MIDI**, and **high-performance graphics**. **The trade-off**: **audio-specific**—not a general-purpose UI framework. **Best for**: **audio software, plug-ins, and music technology**—not business applications.
-
-
-
-- **wxWidgets**
-
-  **Cross-platform GUI library with native look and feel** (wxWindows Licence) — **the native-widgets choice** . **Wraps native platform widgets**—applications look like they belong on each OS. **C++ API** with **bindings for Python, Perl, and others**. **The trade-off**: **smaller ecosystem** than Qt, and **modern UI patterns (animations, GPU rendering) are harder**. **Best for**: teams wanting **native appearance** without Qt's licensing complexity.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Neutralinojs** — **Lightweight cross-platform desktop apps** (MIT) — **uses the system's webview** with **a tiny footprint** (≈2MB build size) . **Note**: **no back-end package manager**—application code cannot use npm packages in the main process . **Best for**: front-end-only applications needing a minimal shell.
-
-- **Wails** — **Go backend with web frontend** (MIT) — **uses the system webview** with **Go's performance** and **small build size** (≈11MB on Windows) . **Build time is slower** (≈7 seconds on Windows) than Electron . **Best for**: Go developers wanting desktop apps with web UIs.
-
-- **Pyloid** — **Python backend version of Electron and Tauri** (Apache-2.0) — **built on QtWebEngine and PySide6**—leverages Python's ecosystem for AI-powered desktop applications . **Best for**: Python developers wanting **web-based UIs with Python backends**.
-
-- **Adrenaline.js** — **Ultra-lightweight Electron alternative** (open-source) — **drop-in Electron-compatible API** with **system native webviews**—**≈5-10MB bundle** vs. Electron's 150MB+, **≈30MB memory** . **100% Node.js**—no Rust or Go barrier. **Best for**: Node.js teams wanting **Electron ergonomics without the Chromium bloat**.
-
-- Community **n8n** workflows for desktop app build notification and release automation.
-
-
-
-**Frameworks for building custom systems**: Combine **Electron** for maximum web-technology compatibility with **Tauri** for lightweight web-based apps, **Qt** or **Avalonia** for native performance, **Flutter** for pixel-perfect UI consistency, and **JUCE** for audio-specific requirements—creating a comprehensive desktop framework stack matched to each project's constraints.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Desktop frameworks must be evaluated for **bundle size**, **memory footprint**, **native integration depth**, and **licensing** (MIT vs. LGPL vs. GPL vs. commercial).
-
-- **The "bundle size" trade-off is the most visible differentiator.** **Electron ships Chromium**—**≈385MB** for a minimal app . **Tauri, Neutralino, and Adrenaline use the system webview**—**≈2-10MB** . **The trade-off**: system webviews vary by OS version, and **build times for Rust-based frameworks are significantly slower** (Tauri: ≈234 seconds vs. Electron: ≈10 seconds on Windows) .
-
-- **The "native vs. webview" distinction determines what you can build.** **Qt, Flutter, Avalonia, and Slint render their own UI**—full control over every pixel, hardware interaction depth, and consistent appearance across platforms . **Electron, Tauri, and Neutralino delegate rendering to a webview**—web technologies, faster iteration, but **weaker hardware integration** . **Choose based on whether you need to talk to a serial port or render a complex chart.**
-
-- **Licensing matters for commercial distribution.** **Electron, Tauri, Avalonia, and .NET MAUI are permissive (MIT/Apache-2.0)**. **Qt requires LGPL compliance** (dynamic linking, source availability for modifications) or a commercial license . **Slint and JUCE use GPLv3** unless you purchase a commercial license. **Verify before shipping.**
-
-- **The "WPF-everywhere" story is real.** **Avalonia UI** lets .NET teams with WPF experience target macOS and Linux without rewriting in C++ or Dart . **The trade-off**: installers and auto-updates require assembly from .NET ecosystem tools rather than turnkey features . **For teams already in C#/XAML, the productivity gain outweighs the plumbing.**
-
-- **Self-hosted open-source solutions require proper build infrastructure, code signing, and update mechanisms.** **Desktop applications are installed software**—auto-updaters, crash reporting, and platform-specific packaging are not optional for production.
-
-
+- **Qt (Open-Source Edition)** [![GitHub stars](https://img.shields.io/github/stars/qt/qt5?style=social&color=white)](https://github.com/qt/qt5/stargazers)  
+  **Cross-platform C++ GUI framework with extensive native libraries** (LGPLv3/GPLv3) — *the native performance powerhouse*. Powers major engineering software, automotive dashboards, and medical instrumentation with C++ and QML declarative styling.  
+  * **Trade-off:** LGPL compliance mandates dynamic linking and relinking capabilities for proprietary applications.
 
 ---
 
+### Specialized & Emerging Open-Source Frameworks
 
+- **Pyloid** [![GitHub stars](https://img.shields.io/github/stars/pyloid/pyloid?style=social&color=white)](https://github.com/pyloid/pyloid/stargazers) — **Python backend version of Electron and Tauri** (Apache-2.0). Combines QtWebEngine and PySide6 to bring web frontends directly into Python's machine learning and data science ecosystem.
+- **libui-ng** [![GitHub stars](https://img.shields.io/github/stars/libui-ng/libui-ng?style=social&color=white)](https://github.com/libui-ng/libui-ng/stargazers) — **C-based native GUI library** (MIT). Provides clean, portable C bindings to native operating system controls (Win32, Cocoa, GTK) with zero third-party baggage.
+- **Adrenaline.js** — **Ultra-lightweight Electron alternative** (Open Source). Offers a drop-in Electron-compatible API on top of native OS webviews to deliver ~5-10MB bundle sizes with pure Node.js ergonomics.
 
-**Made for application developers, platform teams, and organizations building transparent desktop solutions.**  
+---
 
-Let's make Desktop Application Frameworks more open, data-driven, and native-quality.
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Desktop-Application-Frameworks&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Desktop-Application-Frameworks&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for visiting and supporting this ecosystem directory! If you find this curated collection helpful for your desktop architecture decisions:
+
+- ⭐ **Star** this repository to show your appreciation and help others discover it.
+- 🍴 **Fork** it to keep a personal copy or contribute your favorite tools.
+- 📢 **Share** it with fellow software engineers, colleagues, and open-source communities.
+- ☕ **Sponsor / Buy Me a Coffee:** Support ongoing maintenance, research, and open-source documentation via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome and highly appreciated! To submit a framework or platform:
+
+1. **Fork** the repository.
+2. **Add/Edit** entries in `README.md` following the existing format.
+3. Include the framework's name, GitHub repository or official site link, license, star count badge, and a concise 1–2 sentence description of trade-offs and best use cases.
+4. Open a **Pull Request** with a brief summary of the submission.
+
+---
+
+## ⚖️ Disclaimer & Evaluation Guidelines
+
+- 📌 This list is **community-curated** for architectural discovery and comparison—not an endorsement.
+- 📦 **Bundle Size & Memory Footprint:** Frameworks bundling full browser engines (Electron: ~300MB+ bundle, ~250MB+ RAM) trade footprint for guaranteed DOM consistency. Frameworks using OS webviews (Tauri, Wails, Neutralinojs: ~2-15MB) reduce size dramatically but depend on host OS webview versions.
+- 🎨 **Native vs. Self-Rendered:** Canvas/Skia engines (Flutter, Avalonia, Slint) draw every pixel identically on all platforms. Native control wrappers (wxWidgets, libui-ng) provide 100% native OS look-and-feel.
+- 📜 **Licensing Considerations:** Check whether libraries are permissive (MIT, Apache-2.0, BSD) or copyleft (LGPLv3, GPLv3). If deploying proprietary commercial software, ensure compliance with source-linking rules.
+
+---
+
+<p align="center">
+  <b>Made with ❤️ for application developers, desktop engineers, and platform architects building native-grade desktop solutions.</b>
+</p>
